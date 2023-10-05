@@ -52,7 +52,6 @@ exit:
   li a7, 10
   ecall
 
-# 利用前導0數量(n)來方便我們計算我們的test123可以被2除幾次
 counting_process:
   #x |= (x >> 1);  
   #x |= (x >> 2);  
