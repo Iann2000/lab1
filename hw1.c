@@ -19,7 +19,7 @@ uint16_t count_exponent(uint64_t x)
   x += (x >> 32);
 
   // 直接返回計算的前導零數
-  return (32 - (x & 0x7f)); // 64個０減掉msb之後的0數量
+  return (32 - (x & 0x7f)); // 32個０減掉msb之後的0數量
 }
 
 int main()
