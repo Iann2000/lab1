@@ -115,7 +115,6 @@ counting_process:
   li s1, 0 #srli 32bit = 0
   add s0, s0, s1
 
-  #return (32 - (x & 0x0000007f));
   li t1, 0x0000007f
   and s1, s0, t1
   sub s5, x0, s1 #n=s5
