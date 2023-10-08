@@ -32,7 +32,7 @@ int main()
 
     if (clz < 32)
     {
-      uint32_t msb = (uint32_t)(32 - clz);
+      uint32_t msb = (uint32_t)(31 - clz);
       printf("Test Data %d:\n", i + 1);
       printf("Input: 0x%016llX\n", test_data[i]);
       printf("Leading Zeros: %u\n", clz);
